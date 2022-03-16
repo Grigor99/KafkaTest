@@ -56,7 +56,7 @@ public class ConsumerDemoWithThreads implements ConnectionInterface {
         }
     }
 
-    public class ConsumerThread implements Runnable {
+    public static class ConsumerThread implements Runnable {
         Logger logger = LoggerFactory.getLogger(ConsumerThread.class);
 
         private CountDownLatch countDownLatch;
